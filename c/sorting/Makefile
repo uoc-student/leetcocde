@@ -6,3 +6,6 @@ run:
 
 clean:
 	rm sort
+
+ex:
+	gcc -o sort sort.c & ./sort
