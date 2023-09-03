@@ -1,0 +1,8 @@
+build: sort.c
+	gcc -o sort quicksort.c
+
+run:
+	./sort
+
+clean:
+	rm sort
